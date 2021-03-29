@@ -1,2 +1,2 @@
 # Project2021cyber
-A cybersecuirty bootcamp project
+A cybersecurity bootcamp project
