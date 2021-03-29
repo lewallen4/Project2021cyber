@@ -42,7 +42,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 	
-66.90.216.101
+Host Public IP
 
 Machines within the network can only be accessed by The Jump Box, 10.0.0.4 .
 
@@ -52,7 +52,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 10.0.0.1 10.0.0.2    |
-| ELK      | No                  |10.0.0.4 66.90.216.101|
+| ELK      | No                  | 10.0.0.4 Host IP      |
 | Web 1    | No                  | 10.0.0.4             |
 | Web 2    | No                  | 10.0.0.4             |
 
